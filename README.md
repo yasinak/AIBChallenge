@@ -1,6 +1,6 @@
 # AIBChallenge
 
-This project has the ambition to show a 5 day weather forecast, in the challenge context ask by AIB.
+This project has the ambition to show a 5 day weather forecast, in the assessment context ask by AIB.
 
 ## Prerequisite
 You need to install the last Xcode from Apple Store.
