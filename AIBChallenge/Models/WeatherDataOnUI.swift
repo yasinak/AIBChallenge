@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct WeatherDataOnUI {
+
+    var day:String?
+    var mainDescription:String?
+    var temp:Int?
+    var iconCode:String?
+}

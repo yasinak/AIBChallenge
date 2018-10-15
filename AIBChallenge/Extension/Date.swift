@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+let weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+
+extension Date{
+    
+    func getHour()->Int{
+        
+        return Calendar.current.component(.hour, from: self)
+    }
+    func getDayOfWeek()->String{
+        
+        return weekday[Calendar.current.component(.weekday, from: self)]
+    }
+}

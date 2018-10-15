@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  AIBChallenge
 //
-//  Created by Yasin Akinci on 11/10/2018.
+//  Created by Yasin Akinci on 14/10/2018.
 //  Copyright © 2018 Yasin Akinci. All rights reserved.
 //
 
@@ -15,7 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        let weatherDataService = WeatherDataService()
+
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = HomeViewController(weatherDataService: weatherDataService)
+        self.window?.makeKeyAndVisible()
+
         return true
     }
 

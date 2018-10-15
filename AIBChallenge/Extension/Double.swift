@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+extension Double {
+    
+    func fromKelvinToCelsius() -> Int{
+        return Int(self - 273.15)
+    }
+
+}
