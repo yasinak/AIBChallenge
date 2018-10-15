@@ -23,6 +23,3 @@ For the moment, a refresh is not interesting because the weather information don
 And we can add more designs features.
 
 Technically, for this project, a documentations of the architecture of the project is missing. Unit Test, UI Test is missing. 
-
-## To Finish
-And to be honest, I spent a little more time than 4 hours...
