@@ -5,7 +5,7 @@ This project has the ambition to show a 5 day weather forecast, in the challenge
 ## Prerequisite
 You need to install the last Xcode from Apple Store.
 
-## How install it
+## How to install it
 After download this project. You don't need to install something else.
 This project used cocoapods dependency manager.
 But I included the pod repository to simplified the installation.
