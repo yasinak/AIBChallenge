@@ -2,15 +2,15 @@
 
 This project has the ambition to show a 5 day weather forecast, in the challenge context ask by AIB.
 
-## Prerequisites
+## Prerequisite
 You need to install the last Xcode from Apple Store.
 
-## How install
+## How install it
 After download this project. You don't need to install something else.
 This project used cocoapods dependency manager.
 But I included the pod repository to simplified the installation.
 
-## Used
+## How to Use
 To open the project, double click to AIBChallenge.xcworkspace file, Xcode will be launch.
 After you can run the project and test it on a simulator.
 
